@@ -1,0 +1,102 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url('../img/trialbycombat.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: rgb(234, 182, 77);
+    text-align: center;
+    margin: 1em auto .5em auto;
+    width: 35%;
+    height: 1.5em;
+    background-color: rgba(100,0,13);
+    border: 5px solid rgb(234, 182, 77);
+}
+
+#gameofthrones {
+    display: flex;
+    width: 90%;
+    height: 50em;
+    /* border: 3px solid white; */
+    /* border: 3px solid rgb(147, 4, 22);
+    background-color: rgba(234, 182, 77, 70%); */
+    margin: auto auto;
+}
+
+ul {
+    display: flex;
+    /* border: 1px solid black; */
+    width: 45%;
+    height: 95%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+li img {
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 2em;
+    border: 1px solid rgb(247, 203, 44)
+
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    border: 5px solid rgb(234, 182, 77);
+    width: 11em;
+    height: 11em;
+    background-color: rgba(147, 4, 22, 65%);
+    font-weight: 700;
+    font-size: 1.2em;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding: .5em 0 .5em 0;
+    border-radius: 2em;
+    color: white   
+}
+
+li:hover {
+    background-color: rgba(147, 4, 22);
+    border-color: rgb(247, 203, 44);
+    color:  rgb(247, 203, 44)
+}
+
+#daenerys {
+    font-size: 1.2em
+}
+#brienne img {
+    width: 60%;
+    height: 80%
+}
+
+
+
+#theHound img {
+    width: 70%;
+    height: 80%;
+    object-position: 40%;
+
+
+}
+
+div {
+    height: 90%;
+    width: 60%;
+}
+
+div.active {
+    border: 5px solid rgb(234, 182, 77);
+}
